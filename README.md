@@ -1,31 +1,39 @@
 # Facerecog_Attendance_System
 
-Step 1 : open your anaconda prompt (for windows user search inside start menu )
-                                   (for Ubuntu and Mac user you can open your terminal)
 
-Step 2 : Create a new environment
-                command : conda create -n facerecognition python==3.6.9
-Step 3 : activate your environment
-                conda activate facerecognition
-Step 4 : Install requirements.txt in the newly created environment
-            a). Navigate to your folder location on anaconda prompt/teminal
-                    for me ( /PycharmProjects/FaceRecogAcademy )
-                    for your folderName
-            b). Check if we have requirements.txt or not in the current directory
+## Introduction
 
-                    command : for windows (dir)
-                              for Mac/Ubuntu(ls)
-                    datasets,  How to run.txt,  requirements.txt,  src
+This project is a Face Recognition Attendance System that allows you to take attendance using face recognition technology. It uses Python and various libraries to achieve this functionality.
 
-                    you should see the above mentioned name of files.
+## Prerequisites
 
-                    if yes:
-                        Your are good to go
-                    elif No:
-                        Please check the steps again you must have missed something
+Before you can run this project, you need to have the following software and packages installed on your system:
 
-Step 5 : Installation and setup is done:
-         a).  cd src
-         b). python clientApp.py
+- Anaconda: You can download and install Anaconda from [Anaconda's website](https://www.anaconda.com/products/distribution).
 
-         Yor are good to go ...
+## Installation
+
+Follow these steps to set up the Face Recognition Attendance System:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/FaceRecognitionAttendanceSystem.git
+   cd FaceRecognitionAttendanceSystem
+
+2.**Create a New Environment:**
+  Use Anaconda to create a new Python environment and activate it.
+  conda create -n facerecognition python==3.6.9
+  conda activate facerecognition
+  
+3. **Install Dependencies:**
+  Install the required packages listed in the 'requirements.txt' file.
+
+4. **Usage**
+  Once you have completed the installation, you can run the Face Recognition Attendance System:
+  Navigate to the 'src' directory:
+  cd src
+  Run the system:
+  python clientApp.py
+
+
+
